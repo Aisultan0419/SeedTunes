@@ -1,0 +1,176 @@
+.songs-table {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.table-header {
+    margin: 0 0 7px 0;
+    display: grid;
+    grid-template-columns: 50px 235px 235px 235px 235px;
+    padding: 0 0 0 40px;
+    font-weight: bold;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 0;
+}
+.table-body {
+    display: flex;
+    flex-direction: column;
+}
+.table-row-container {
+    border-bottom: 1px solid #eee;
+}
+.table-row {
+    display: grid;
+    grid-template-columns: 50px 235px 235px 235px 235px;
+    padding: 10px 0 10px 40px;
+    box-sizing: border-box;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.2s;
+}
+.table-row:hover {
+    background-color: #f9f9f9;
+}
+.expand-icon {
+    position: absolute;
+    left: 15px;
+    font-size: 12px;
+    color: #555;
+}
+.expanded-details-wrapper {
+    background-color: #f4f7f6;
+    overflow: hidden;
+    animation: slideDown 0.5s linear;
+    animation-fill-mode: both;
+    animation-timing-function:forwards;
+    transform-origin: top;
+}
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    to {
+        max-height: 600px;
+        opacity: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.expanded-details {
+    display: flex;
+    padding: 0 40px;
+    gap: 20px;
+}
+.cover-container {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.album-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.album-cover-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #888;
+}
+.details-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.details-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.details-header h3 {
+    margin: 0;
+    font-size: 20px;
+}
+midi-player {
+    margin-left: auto;
+    width: 250px;
+}
+.artist-album-info {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+.likes-info {
+    margin: 0;
+    font-size: 13px;
+    color: #e2264d;
+}
+.review-text {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 10px;
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.pagination button {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.pagination button:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+    color: #aaa;
+}
+.page-number {
+    font-weight: bold;
+}
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+
+.likes-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #007bff;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
+}
+
+.likes-badge svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+}

@@ -1,0 +1,6 @@
+@SeedTunes_HostAddress = http://localhost:5082
+
+GET {{SeedTunes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

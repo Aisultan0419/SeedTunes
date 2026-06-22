@@ -1,0 +1,984 @@
+{
+  "Jazz": {
+    "palettes": [
+      [ "#1a0a00", "#c9a84c", "#8b5e3c", "#f5e6ca" ],
+      [ "#2c1810", "#d4a853", "#7a6248", "#ede0c8" ],
+      [ "#0d0d0d", "#b8860b", "#5c4033", "#fff8dc" ],
+      [ "#1c1008", "#e6b84a", "#9e7c5e", "#fdf3e3" ],
+      [ "#261400", "#f0c040", "#704214", "#faebd7" ],
+      [ "#2a1a0a", "#d4a040", "#83603a", "#f0e0b8" ],
+      [ "#1f1206", "#c8a430", "#6b4a2a", "#f8e8c0" ],
+      [ "#281808", "#ddb850", "#8c6a40", "#f2dfb0" ],
+      [ "#301c0c", "#e0c060", "#9e7a4a", "#f8ecc8" ],
+      [ "#231408", "#d8b848", "#826438", "#f4e6c4" ],
+      [ "#190e04", "#c4a828", "#705030", "#f0e2b4" ],
+      [ "#2e1808", "#dcbc50", "#8e6844", "#f6eac0" ]
+    ],
+    "backgroundShapes": [
+      "diamond-sunset.svg",
+      "subtle-prism.svg",
+      "rose-petals.svg",
+      "wavey-fingerprint.svg",
+      "wintery-sunburst.svg",
+      "repeating-chevrons.svg",
+      "hollowed-boxes.svg",
+      "abstract-envelope.svg",
+      "bullseye-gradient.svg",
+      "endless-constellation.svg"
+    ],
+    "heroAssets": [
+      "vinyl.svg",
+      "crown.svg",
+      "cassette.svg",
+      "audio_speaker.svg",
+      "rose_flower.svg",
+      "speaker_low.svg",
+      "theater_masks.svg",
+      "heart_pulse.svg",
+      "comedy_mask.svg",
+      "compass_outline.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 20 ],
+      "noiseLevel": [ 0.25, 0.65 ],
+      "glitchIntensity": [ 0.0, 0.08 ]
+    }
+  },
+  "Blues": {
+    "palettes": [
+      [ "#0a0a1a", "#1e4d8c", "#5b8db8", "#c0d8f0" ],
+      [ "#050510", "#163d6e", "#4a7aaa", "#b0cce8" ],
+      [ "#0f0f20", "#1a3a6e", "#6080a0", "#d0e4f4" ],
+      [ "#080818", "#204080", "#5090c0", "#c8ddf0" ],
+      [ "#0c0c1e", "#1c4478", "#508ab2", "#bcd8ee" ],
+      [ "#0b0b1c", "#254e8c", "#5c8fba", "#c4daf0" ],
+      [ "#090916", "#1f4982", "#5588b0", "#ccdef4" ],
+      [ "#0d0d22", "#2a5088", "#6a92b8", "#d4e6f4" ],
+      [ "#111128", "#306098", "#7098c0", "#dcecf8" ],
+      [ "#070714", "#184070", "#4880a8", "#b8d4e8" ],
+      [ "#0e0e20", "#224c84", "#608cb0", "#cce0f0" ],
+      [ "#13132a", "#2c5490", "#6e94bc", "#d8e8f8" ]
+    ],
+    "backgroundShapes": [
+      "bullseye-gradient.svg",
+      "diamond-sunset.svg",
+      "wavey-fingerprint.svg",
+      "subtle-prism.svg",
+      "hollowed-boxes.svg",
+      "repeating-chevrons.svg",
+      "wintery-sunburst.svg",
+      "endless-constellation.svg",
+      "rose-petals.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "electric_guitar_2.svg",
+      "bass_guitar.svg",
+      "vinyl.svg",
+      "audio_speaker.svg",
+      "cassette.svg",
+      "speaker_low.svg",
+      "heart_pulse.svg",
+      "compass_outline.svg",
+      "drum_kit.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 15 ],
+      "noiseLevel": [ 0.35, 0.75 ],
+      "glitchIntensity": [ 0.0, 0.08 ]
+    }
+  },
+  "Metal": {
+    "palettes": [
+      [ "#0a0a0a", "#8b0000", "#2d2d2d", "#ff2200" ],
+      [ "#111111", "#660000", "#333333", "#cc0000" ],
+      [ "#080808", "#7a0000", "#1a1a1a", "#e60000" ],
+      [ "#0d0d0d", "#990000", "#222222", "#dd1100" ],
+      [ "#050505", "#5c0000", "#141414", "#ff3300" ],
+      [ "#121212", "#ad0000", "#2b2b2b", "#ff4d00" ],
+      [ "#070707", "#8c0000", "#1e1e1e", "#f00000" ],
+      [ "#0e0e0e", "#b30000", "#282828", "#ff3c00" ],
+      [ "#141414", "#cc1100", "#383838", "#ff5500" ],
+      [ "#0b0b0b", "#a00000", "#252525", "#f02000" ],
+      [ "#101010", "#be0800", "#303030", "#ff4400" ],
+      [ "#060606", "#880000", "#1c1c1c", "#ee0000" ]
+    ],
+    "backgroundShapes": [
+      "dragon-scales.svg",
+      "large-triangles.svg",
+      "zig-zag.svg",
+      "diagonal-stripes.svg",
+      "protruding-squares.svg",
+      "geometric-intersection.svg",
+      "square-versatiles.svg",
+      "spectrum-gradient.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "electric_guitar_2.svg",
+      "drum_kit.svg",
+      "drums_rhythm.svg",
+      "bass_guitar.svg",
+      "vinyl.svg",
+      "bar_code.svg",
+      "scan_code.svg",
+      "qr_code.svg",
+      "audio_speaker.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 25 ],
+      "noiseLevel": [ 0.55, 1.0 ],
+      "glitchIntensity": [ 0.4, 1.0 ]
+    }
+  },
+  "Punk": {
+    "palettes": [
+      [ "#0a0a0a", "#ff00aa", "#ffffff", "#00ff44" ],
+      [ "#111111", "#ee0077", "#f0f0f0", "#33ff33" ],
+      [ "#050505", "#cc0088", "#eeeeee", "#22ee22" ],
+      [ "#080808", "#ff1199", "#dddddd", "#00cc33" ],
+      [ "#0d0d0d", "#dd0066", "#f8f8f8", "#11dd44" ],
+      [ "#131313", "#ff33bb", "#e0e0e0", "#44ff55" ],
+      [ "#0b0b0b", "#ff0080", "#cccccc", "#00ff55" ],
+      [ "#101010", "#ee2288", "#d0d0d0", "#55ff44" ],
+      [ "#151515", "#ff44cc", "#eeeeee", "#66ff66" ],
+      [ "#090909", "#ff1188", "#e8e8e8", "#33ee44" ],
+      [ "#0c0c0c", "#dd0088", "#d8d8d8", "#22ff33" ],
+      [ "#121212", "#ff2299", "#f0f0f0", "#44ff44" ]
+    ],
+    "backgroundShapes": [
+      "diagonal-stripes.svg",
+      "zig-zag.svg",
+      "dragon-scales.svg",
+      "large-triangles.svg",
+      "hollowed-boxes.svg",
+      "square-versatiles.svg",
+      "protruding-squares.svg",
+      "geometric-intersection.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "electric_guitar_2.svg",
+      "drum_kit.svg",
+      "bass_guitar.svg",
+      "bar_code.svg",
+      "scan_code.svg",
+      "vinyl.svg",
+      "soda_cup.svg",
+      "audio_speaker.svg",
+      "drums_rhythm.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 15 ],
+      "noiseLevel": [ 0.65, 1.0 ],
+      "glitchIntensity": [ 0.5, 1.0 ]
+    }
+  },
+  "Rock": {
+    "palettes": [
+      [ "#1a0000", "#cc3300", "#444444", "#ff6633" ],
+      [ "#111111", "#aa2200", "#333333", "#ff5500" ],
+      [ "#0d0d0d", "#bb2200", "#555555", "#ff7744" ],
+      [ "#0a0a0a", "#993300", "#3a3a3a", "#ff4422" ],
+      [ "#161616", "#c02800", "#484848", "#ff6644" ],
+      [ "#1c0000", "#e04000", "#505050", "#ff8855" ],
+      [ "#121212", "#cc4400", "#3c3c3c", "#ff7744" ],
+      [ "#0f0f0f", "#b83500", "#464646", "#ff5533" ],
+      [ "#1e0000", "#ee5000", "#585858", "#ff9966" ],
+      [ "#141414", "#d04800", "#424242", "#ff6644" ],
+      [ "#0b0b0b", "#c03000", "#404040", "#ff5522" ],
+      [ "#181818", "#e04800", "#505050", "#ff8866" ]
+    ],
+    "backgroundShapes": [
+      "large-triangles.svg",
+      "zig-zag.svg",
+      "dragon-scales.svg",
+      "repeating-chevrons.svg",
+      "diagonal-stripes.svg",
+      "protruding-squares.svg",
+      "wintery-sunburst.svg",
+      "geometric-intersection.svg",
+      "hollowed-boxes.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "electric_guitar_2.svg",
+      "bass_guitar.svg",
+      "drum_kit.svg",
+      "drums_rhythm.svg",
+      "vinyl.svg",
+      "audio_speaker.svg",
+      "cassette.svg",
+      "bar_code.svg",
+      "compass_outline.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 30 ],
+      "noiseLevel": [ 0.35, 0.85 ],
+      "glitchIntensity": [ 0.08, 0.55 ]
+    }
+  },
+  "Pop": {
+    "palettes": [
+      [ "#ff69b4", "#ffffff", "#ffe4e1", "#ff1493" ],
+      [ "#e040fb", "#ffffff", "#f8bbd0", "#ea80fc" ],
+      [ "#00bcd4", "#ffffff", "#e0f7fa", "#00acc1" ],
+      [ "#ff8a65", "#fff3e0", "#ffcc02", "#ff6d00" ],
+      [ "#ab47bc", "#fce4ec", "#ffffff", "#ce93d8" ],
+      [ "#ffab40", "#ffffff", "#ffebc0", "#ff6e40" ],
+      [ "#29b6f6", "#ffffff", "#b3e5fc", "#0288d1" ],
+      [ "#ef5350", "#ffffff", "#ffcdd2", "#d32f2f" ],
+      [ "#66bb6a", "#ffffff", "#c8e6c9", "#388e3c" ],
+      [ "#ffb74d", "#ffffff", "#ffe0b2", "#f57c00" ],
+      [ "#4fc3f7", "#ffffff", "#b3e5fc", "#0277bd" ],
+      [ "#f06292", "#ffffff", "#fce4ec", "#c2185b" ]
+    ],
+    "backgroundShapes": [
+      "confetti-doodles.svg",
+      "radiant-gradient.svg",
+      "liquid-cheese.svg",
+      "spectrum-gradient.svg",
+      "rose-petals.svg",
+      "diamond-sunset.svg",
+      "wintery-sunburst.svg",
+      "subtle-prism.svg",
+      "bullseye-gradient.svg"
+    ],
+    "heroAssets": [
+      "disco_ball.svg",
+      "crown.svg",
+      "rose_flower.svg",
+      "shoes.svg",
+      "soda_cup.svg",
+      "comedy_mask.svg",
+      "audio_speaker.svg",
+      "vinyl.svg",
+      "retro_icons.svg",
+      "speaker_low.svg",
+      "theater_masks.svg",
+      "heart_pulse.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 25, 75 ],
+      "noiseLevel": [ 0.0, 0.25 ],
+      "glitchIntensity": [ 0.0, 0.12 ]
+    }
+  },
+  "Disco": {
+    "palettes": [
+      [ "#1a0033", "#ffd700", "#ff69b4", "#ffffff" ],
+      [ "#0d001a", "#ffcc00", "#ff4488", "#f0f0f0" ],
+      [ "#110022", "#f0c000", "#ee3377", "#eeeeee" ],
+      [ "#160028", "#ffc800", "#ff55aa", "#ffffff" ],
+      [ "#0a0014", "#ffe000", "#ff2266", "#ffffff" ],
+      [ "#1e0030", "#ffd800", "#ff77bb", "#f8f8f8" ],
+      [ "#120020", "#ffc400", "#ff5588", "#fff0f0" ],
+      [ "#180028", "#ffdc00", "#ff44aa", "#f0f0ff" ],
+      [ "#200035", "#ffe400", "#ff88cc", "#ffffff" ],
+      [ "#140025", "#ffd400", "#ff6699", "#f8f0f8" ],
+      [ "#0e0018", "#ffc800", "#ff3388", "#f0f0f0" ],
+      [ "#1a0028", "#ffd800", "#ff55aa", "#f8f8ff" ]
+    ],
+    "backgroundShapes": [
+      "radiant-gradient.svg",
+      "spectrum-gradient.svg",
+      "confetti-doodles.svg",
+      "liquid-cheese.svg",
+      "diamond-sunset.svg",
+      "bullseye-gradient.svg",
+      "wintery-sunburst.svg",
+      "rose-petals.svg"
+    ],
+    "heroAssets": [
+      "disco_ball.svg",
+      "vinyl.svg",
+      "shoes.svg",
+      "crown.svg",
+      "soda_cup.svg",
+      "audio_speaker.svg",
+      "comedy_mask.svg",
+      "theater_masks.svg",
+      "speaker_low.svg",
+      "retro_icons.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 45, 95 ],
+      "noiseLevel": [ 0.0, 0.18 ],
+      "glitchIntensity": [ 0.0, 0.12 ]
+    }
+  },
+  "Funk": {
+    "palettes": [
+      [ "#1a0800", "#ff6600", "#8b4513", "#ffaa00" ],
+      [ "#150600", "#ee5500", "#7a3c10", "#ffbb00" ],
+      [ "#1e0a00", "#ff7700", "#964b14", "#ffcc00" ],
+      [ "#110400", "#dd4400", "#6a2c0c", "#ff9900" ],
+      [ "#190700", "#ff5500", "#8a3c12", "#ffc200" ],
+      [ "#200b00", "#ff8800", "#9e5518", "#ffd400" ],
+      [ "#130500", "#ff6800", "#804000", "#ffb800" ],
+      [ "#170600", "#ff7200", "#8c4816", "#ffc600" ],
+      [ "#220c00", "#ff9400", "#a85c1c", "#ffd800" ],
+      [ "#1c0800", "#ff8000", "#945016", "#ffc800" ],
+      [ "#0f0400", "#ee6000", "#7a3808", "#ffa800" ],
+      [ "#180800", "#ff7800", "#904412", "#ffc400" ]
+    ],
+    "backgroundShapes": [
+      "bullseye-gradient.svg",
+      "liquid-cheese.svg",
+      "confetti-doodles.svg",
+      "wintery-sunburst.svg",
+      "diamond-sunset.svg",
+      "spectrum-gradient.svg",
+      "radiant-gradient.svg",
+      "rose-petals.svg"
+    ],
+    "heroAssets": [
+      "bass_guitar.svg",
+      "drums_rhythm.svg",
+      "audio_speaker.svg",
+      "vinyl.svg",
+      "electric_guitar_1.svg",
+      "shoes.svg",
+      "crown.svg",
+      "disco_ball.svg",
+      "soda_cup.svg",
+      "speaker_low.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 8, 45 ],
+      "noiseLevel": [ 0.15, 0.55 ],
+      "glitchIntensity": [ 0.0, 0.25 ]
+    }
+  },
+  "Hip-Hop": {
+    "palettes": [
+      [ "#0a0a0a", "#d4af37", "#1a1a1a", "#ffffff" ],
+      [ "#111111", "#c9a227", "#222222", "#f0f0f0" ],
+      [ "#080808", "#b8960c", "#1e1e1e", "#eeeeee" ],
+      [ "#0d0d0d", "#e6b800", "#181818", "#ffffff" ],
+      [ "#050505", "#cc9900", "#141414", "#f5f5f5" ],
+      [ "#121212", "#e0c040", "#202020", "#f8f8f8" ],
+      [ "#0b0b0b", "#dbb830", "#1c1c1c", "#ffffff" ],
+      [ "#0e0e0e", "#c8a830", "#161616", "#f0f0f0" ],
+      [ "#141414", "#e8c848", "#242424", "#ffffff" ],
+      [ "#090909", "#d4b830", "#1a1a1a", "#f8f8f8" ],
+      [ "#101010", "#c8a440", "#1e1e1e", "#f0f0f0" ],
+      [ "#070707", "#d0b040", "#181818", "#fafafa" ]
+    ],
+    "backgroundShapes": [
+      "square-versatiles.svg",
+      "geometric-intersection.svg",
+      "diagonal-stripes.svg",
+      "protruding-squares.svg",
+      "zig-zag.svg",
+      "dragon-scales.svg",
+      "large-triangles.svg",
+      "hollowed-boxes.svg"
+    ],
+    "heroAssets": [
+      "crown.svg",
+      "shoes.svg",
+      "bass_guitar.svg",
+      "audio_speaker.svg",
+      "vinyl.svg",
+      "speaker_low.svg",
+      "bar_code.svg",
+      "scan_code.svg",
+      "qr_code.svg",
+      "drums_rhythm.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 10, 55 ],
+      "noiseLevel": [ 0.08, 0.45 ],
+      "glitchIntensity": [ 0.08, 0.45 ]
+    }
+  },
+  "R&B": {
+    "palettes": [
+      [ "#1a0014", "#9b1a4a", "#6b0f3a", "#f8bbd0" ],
+      [ "#110010", "#8a1542", "#5e0e30", "#f4aac0" ],
+      [ "#160012", "#aa1850", "#700e38", "#fcc0d0" ],
+      [ "#0e000e", "#7a1240", "#500c28", "#f0b0c8" ],
+      [ "#180016", "#b81c58", "#780f40", "#ffd0e0" ],
+      [ "#1c0018", "#c82060", "#801248", "#ffe0e8" ],
+      [ "#13000c", "#8e1a4a", "#620e34", "#f8c0d4" ],
+      [ "#140010", "#a01e50", "#6c1038", "#fcc8d8" ],
+      [ "#1e001a", "#cc2464", "#88144c", "#ffe4ec" ],
+      [ "#150010", "#962050", "#681036", "#f8c8d8" ],
+      [ "#0c0008", "#801844", "#580c30", "#f0b4c8" ],
+      [ "#1a0016", "#a41c54", "#74103e", "#fcccdc" ]
+    ],
+    "backgroundShapes": [
+      "rose-petals.svg",
+      "wavey-fingerprint.svg",
+      "subtle-prism.svg",
+      "diamond-sunset.svg",
+      "bullseye-gradient.svg",
+      "wintery-sunburst.svg",
+      "endless-constellation.svg",
+      "abstract-envelope.svg"
+    ],
+    "heroAssets": [
+      "rose_flower.svg",
+      "crown.svg",
+      "vinyl.svg",
+      "audio_speaker.svg",
+      "heart_pulse.svg",
+      "shoes.svg",
+      "speaker_low.svg",
+      "cassette.svg",
+      "theater_masks.svg",
+      "retro_icons.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 15, 65 ],
+      "noiseLevel": [ 0.04, 0.28 ],
+      "glitchIntensity": [ 0.0, 0.12 ]
+    }
+  },
+  "Reggae": {
+    "palettes": [
+      [ "#006600", "#ffd700", "#cc0000", "#ffffff" ],
+      [ "#005500", "#ffcc00", "#bb0000", "#f0f0f0" ],
+      [ "#004400", "#ffee00", "#dd0000", "#eeeeee" ],
+      [ "#007700", "#ffe000", "#aa0000", "#f8f8f8" ],
+      [ "#003300", "#ffc000", "#cc1100", "#ffffff" ],
+      [ "#008800", "#ffdd00", "#cc2200", "#ffffff" ],
+      [ "#005500", "#ffd800", "#dd3300", "#f0f0f0" ],
+      [ "#003300", "#ffc400", "#cc0000", "#f8f8f8" ],
+      [ "#009900", "#ffe800", "#dd2200", "#ffffff" ],
+      [ "#006600", "#ffd400", "#cc3300", "#f8f8f8" ],
+      [ "#004400", "#ffc800", "#dd1100", "#f0f0f0" ],
+      [ "#008800", "#ffe000", "#cc2200", "#fafafa" ]
+    ],
+    "backgroundShapes": [
+      "wintery-sunburst.svg",
+      "liquid-cheese.svg",
+      "wavey-fingerprint.svg",
+      "diamond-sunset.svg",
+      "repeating-chevrons.svg",
+      "subtle-prism.svg",
+      "hollowed-boxes.svg",
+      "rose-petals.svg"
+    ],
+    "heroAssets": [
+      "vinyl.svg",
+      "audio_speaker.svg",
+      "compass_outline.svg",
+      "rose_flower.svg",
+      "speaker_low.svg",
+      "cassette.svg",
+      "heart_pulse.svg",
+      "update_arrow.svg",
+      "retro_icons.svg",
+      "video_player.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 3, 28 ],
+      "noiseLevel": [ 0.15, 0.55 ],
+      "glitchIntensity": [ 0.0, 0.08 ]
+    }
+  },
+  "Country": {
+    "palettes": [
+      [ "#2c1a00", "#c8882a", "#8b6914", "#fff4d6" ],
+      [ "#231500", "#b87820", "#7a5c10", "#ffefc8" ],
+      [ "#281800", "#d49430", "#906818", "#fff0d8" ],
+      [ "#1e1200", "#be7e24", "#7a5c12", "#ffebc0" ],
+      [ "#2a1600", "#c88428", "#886416", "#fff2d0" ],
+      [ "#301e00", "#d4a040", "#987420", "#fff8e0" ],
+      [ "#221400", "#c08030", "#846818", "#ffeec8" ],
+      [ "#261800", "#cc8c34", "#8e6c1a", "#fff4d4" ],
+      [ "#342000", "#dca848", "#a07c28", "#fffae4" ],
+      [ "#201200", "#c4842c", "#866414", "#ffecc4" ],
+      [ "#281a00", "#d09838", "#947020", "#fff2d4" ],
+      [ "#2c1a00", "#cc9030", "#8e6818", "#fff6d8" ]
+    ],
+    "backgroundShapes": [
+      "repeating-chevrons.svg",
+      "wintery-sunburst.svg",
+      "diamond-sunset.svg",
+      "hollowed-boxes.svg",
+      "rose-petals.svg",
+      "subtle-prism.svg",
+      "wavey-fingerprint.svg",
+      "abstract-envelope.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "compass_outline.svg",
+      "vinyl.svg",
+      "cassette.svg",
+      "shoes.svg",
+      "electric_guitar_2.svg",
+      "bass_guitar.svg",
+      "audio_speaker.svg",
+      "heart_pulse.svg",
+      "speaker_low.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 12 ],
+      "noiseLevel": [ 0.25, 0.65 ],
+      "glitchIntensity": [ 0.0, 0.08 ]
+    }
+  },
+  "Classical": {
+    "palettes": [
+      [ "#1a0800", "#8b0000", "#c9a84c", "#f8f0e0" ],
+      [ "#150600", "#7a0000", "#b8960c", "#f4ead8" ],
+      [ "#1e0a00", "#990000", "#d4a820", "#fdf4e4" ],
+      [ "#120500", "#6a0000", "#aa8c10", "#f0e8d4" ],
+      [ "#180700", "#880000", "#c09a18", "#f8f2e2" ],
+      [ "#1c0900", "#a01000", "#dcc040", "#fef6e8" ],
+      [ "#140400", "#920000", "#c8a030", "#f6ecda" ],
+      [ "#160500", "#8c0000", "#c4a020", "#f8f0dc" ],
+      [ "#200a00", "#a81400", "#e4c848", "#fef8ec" ],
+      [ "#180600", "#960000", "#ccac38", "#f8f0e0" ],
+      [ "#1a0a00", "#9c0000", "#d4b040", "#faf2e2" ],
+      [ "#1c0800", "#a20800", "#dcc044", "#fcf4e4" ]
+    ],
+    "backgroundShapes": [
+      "subtle-prism.svg",
+      "rose-petals.svg",
+      "diamond-sunset.svg",
+      "wintery-sunburst.svg",
+      "wavey-fingerprint.svg",
+      "bullseye-gradient.svg",
+      "endless-constellation.svg"
+    ],
+    "heroAssets": [
+      "vinyl.svg",
+      "crown.svg",
+      "theater_masks.svg",
+      "rose_flower.svg",
+      "comedy_mask.svg",
+      "heart_pulse.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 0, 12 ],
+      "noiseLevel": [ 0.04, 0.22 ],
+      "glitchIntensity": [ 0.0, 0.04 ]
+    }
+  },
+  "Lo-Fi": {
+    "palettes": [
+      [ "#1e1e2e", "#a0b4c8", "#7090a8", "#e8f0f8" ],
+      [ "#18182a", "#90a8bc", "#6080a0", "#e0eaf4" ],
+      [ "#1a1a2c", "#98aec0", "#6888a8", "#e4ecf6" ],
+      [ "#1c1c30", "#a8b8cc", "#7898b0", "#eaf2f8" ],
+      [ "#141420", "#8898b0", "#5878a0", "#dce8f2" ],
+      [ "#20202e", "#aac0d0", "#7a98b0", "#f0f4fa" ],
+      [ "#161622", "#9aaec4", "#6c88a4", "#e8eef6" ],
+      [ "#1a1a28", "#a2b6ca", "#7490ac", "#e6eef4" ],
+      [ "#222230", "#b0c4d4", "#809cb4", "#f4f8fc" ],
+      [ "#181826", "#9cb0c4", "#6e88a4", "#e4ecf4" ],
+      [ "#1e1e2a", "#a8bacc", "#7894b0", "#ecf2f8" ],
+      [ "#1c1c28", "#a4b8c8", "#7290a8", "#e8f0f6" ]
+    ],
+    "backgroundShapes": [
+      "abstract-envelope.svg",
+      "hollowed-boxes.svg",
+      "wavey-fingerprint.svg",
+      "endless-constellation.svg",
+      "subtle-prism.svg",
+      "diamond-sunset.svg",
+      "wintery-sunburst.svg",
+      "rose-petals.svg"
+    ],
+    "heroAssets": [
+      "cassette.svg",
+      "retro_icons.svg",
+      "vinyl.svg",
+      "soda_cup.svg",
+      "video_player.svg",
+      "speaker_low.svg",
+      "audio_speaker.svg",
+      "heart_pulse.svg",
+      "update_arrow.svg",
+      "compass_outline.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 8, 38 ],
+      "noiseLevel": [ 0.35, 0.85 ],
+      "glitchIntensity": [ 0.0, 0.12 ]
+    }
+  },
+  "Synthwave": {
+    "palettes": [
+      [ "#0d0221", "#ff00ff", "#00ffff", "#ff79c6" ],
+      [ "#0a011e", "#ee00ee", "#00eeee", "#ff66b8" ],
+      [ "#0c0320", "#ff11ff", "#11ffff", "#ff88cc" ],
+      [ "#08011a", "#dd00dd", "#00dddd", "#ff55aa" ],
+      [ "#0e0222", "#ff22ff", "#22ffff", "#ff99dd" ],
+      [ "#100226", "#ff33ff", "#33ffff", "#ffaadd" ],
+      [ "#09011c", "#ee11ee", "#11eeee", "#ff77bb" ],
+      [ "#0b0220", "#ff00ff", "#00ffff", "#ff69cc" ],
+      [ "#120228", "#ff44ff", "#44ffff", "#ffbbee" ],
+      [ "#0a0118", "#ff22ee", "#22eeff", "#ff88dd" ],
+      [ "#0d0322", "#ff11ff", "#11ffff", "#ff99cc" ],
+      [ "#0e0224", "#ff33ee", "#33eeff", "#ffaacc" ]
+    ],
+    "backgroundShapes": [
+      "spectrum-gradient.svg",
+      "endless-constellation.svg",
+      "geometric-intersection.svg",
+      "protruding-squares.svg",
+      "large-triangles.svg",
+      "square-versatiles.svg",
+      "diagonal-stripes.svg"
+    ],
+    "heroAssets": [
+      "synth_keys.svg",
+      "retro_icons.svg",
+      "cassette.svg",
+      "3d_glasses.svg",
+      "video_player.svg",
+      "qr_code.svg",
+      "bar_code.svg",
+      "scan_code.svg",
+      "audio_speaker.svg",
+      "disco_ball.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 35, 85 ],
+      "noiseLevel": [ 0.08, 0.38 ],
+      "glitchIntensity": [ 0.15, 0.65 ]
+    }
+  },
+  "Cyberpunk": {
+    "palettes": [
+      [ "#050510", "#00ff41", "#ff0055", "#0a0a2e" ],
+      [ "#030308", "#00ee38", "#ee0044", "#080820" ],
+      [ "#040412", "#00ff50", "#ff1166", "#0c0c30" ],
+      [ "#02020c", "#00dd30", "#dd0033", "#060618" ],
+      [ "#060614", "#11ff44", "#ff0066", "#0e0e34" ],
+      [ "#070718", "#22ff55", "#ff2277", "#101038" ],
+      [ "#010108", "#00ee40", "#ee1155", "#080828" ],
+      [ "#05050e", "#00ff44", "#ff0044", "#0b0b2c" ],
+      [ "#08081a", "#33ff66", "#ff3388", "#12123a" ],
+      [ "#04040e", "#00ff48", "#ff1166", "#0a0a30" ],
+      [ "#060616", "#22ff44", "#ff0066", "#0e0e36" ],
+      [ "#03030a", "#00ee44", "#ee0044", "#080824" ]
+    ],
+    "backgroundShapes": [
+      "protruding-squares.svg",
+      "geometric-intersection.svg",
+      "square-versatiles.svg",
+      "large-triangles.svg",
+      "diagonal-stripes.svg",
+      "endless-constellation.svg",
+      "dragon-scales.svg"
+    ],
+    "heroAssets": [
+      "qr_code.svg",
+      "scan_code.svg",
+      "3d_glasses.svg",
+      "bar_code.svg",
+      "video_player.svg",
+      "synth_keys.svg",
+      "update_arrow.svg",
+      "drums_rhythm.svg",
+      "audio_speaker.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 45, 95 ],
+      "noiseLevel": [ 0.15, 0.55 ],
+      "glitchIntensity": [ 0.55, 1.0 ]
+    }
+  },
+  "Techno": {
+    "palettes": [
+      [ "#080808", "#0044ff", "#111122", "#4488ff" ],
+      [ "#060606", "#0033ee", "#0e0e1e", "#3377ff" ],
+      [ "#0a0a0a", "#0055ff", "#121224", "#5599ff" ],
+      [ "#040404", "#0022dd", "#080818", "#2266ff" ],
+      [ "#090909", "#0033ff", "#101020", "#4477ff" ],
+      [ "#0c0c0c", "#0066ff", "#141428", "#66aaff" ],
+      [ "#050505", "#0044ee", "#0c0c1c", "#4488ff" ],
+      [ "#070707", "#0055ee", "#101024", "#5599ff" ],
+      [ "#0e0e0e", "#0077ff", "#16162a", "#77bbff" ],
+      [ "#080808", "#0055ff", "#121228", "#5588ff" ],
+      [ "#0a0a0a", "#0066ee", "#141426", "#6699ff" ],
+      [ "#060606", "#0044ee", "#0e0e20", "#4477ff" ]
+    ],
+    "backgroundShapes": [
+      "protruding-squares.svg",
+      "geometric-intersection.svg",
+      "large-triangles.svg",
+      "square-versatiles.svg",
+      "endless-constellation.svg",
+      "diagonal-stripes.svg",
+      "dragon-scales.svg"
+    ],
+    "heroAssets": [
+      "qr_code.svg",
+      "drums_rhythm.svg",
+      "scan_code.svg",
+      "synth_keys.svg",
+      "bar_code.svg",
+      "audio_speaker.svg",
+      "update_arrow.svg",
+      "video_player.svg",
+      "3d_glasses.svg",
+      "speaker_low.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 15, 65 ],
+      "noiseLevel": [ 0.08, 0.45 ],
+      "glitchIntensity": [ 0.35, 0.95 ]
+    }
+  },
+  "Ambient": {
+    "palettes": [
+      [ "#050a14", "#1a3a5c", "#3a7ab8", "#c8e8ff" ],
+      [ "#040810", "#163250", "#3070aa", "#c0e0fc" ],
+      [ "#060b16", "#1c3e60", "#4080c0", "#d0ecff" ],
+      [ "#030710", "#142c48", "#2c68a8", "#b8deff" ],
+      [ "#070c18", "#1e4264", "#4488c8", "#ccf0ff" ],
+      [ "#080e1a", "#204868", "#4888cc", "#d4f0ff" ],
+      [ "#02060c", "#183a54", "#3470b0", "#c4e4fe" ],
+      [ "#060912", "#1c4060", "#4084c4", "#d0e8ff" ],
+      [ "#0a0e1c", "#244c6c", "#4c8cd0", "#d8f4ff" ],
+      [ "#040812", "#1e3a58", "#3c7cbc", "#cce4fc" ],
+      [ "#080c16", "#204464", "#4488c8", "#d4ecfe" ],
+      [ "#060a14", "#1c3e5c", "#407cc0", "#d0e8fc" ]
+    ],
+    "backgroundShapes": [
+      "endless-constellation.svg",
+      "wavey-fingerprint.svg",
+      "subtle-prism.svg",
+      "abstract-envelope.svg",
+      "hollowed-boxes.svg",
+      "rose-petals.svg",
+      "diamond-sunset.svg",
+      "wintery-sunburst.svg"
+    ],
+    "heroAssets": [
+      "compass_outline.svg",
+      "heart_pulse.svg",
+      "update_arrow.svg",
+      "speaker_low.svg",
+      "audio_speaker.svg",
+      "vinyl.svg",
+      "rose_flower.svg",
+      "cassette.svg",
+      "retro_icons.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 45, 95 ],
+      "noiseLevel": [ 0.0, 0.18 ],
+      "glitchIntensity": [ 0.0, 0.08 ]
+    }
+  },
+  "Electronic": {
+    "palettes": [
+      [ "#0a0014", "#7c00ff", "#00ccff", "#e040fb" ],
+      [ "#080010", "#6a00ee", "#00bbee", "#d030ea" ],
+      [ "#0c0018", "#8800ff", "#00ddff", "#f050ff" ],
+      [ "#060010", "#5c00dd", "#00aaee", "#c020d8" ],
+      [ "#0e001c", "#9400ff", "#00eeff", "#ee60ff" ],
+      [ "#100022", "#aa00ff", "#33eeff", "#ff70ff" ],
+      [ "#05000c", "#7000ee", "#00ccff", "#e040ea" ],
+      [ "#0f001a", "#8c00ff", "#00ddff", "#f058ff" ],
+      [ "#120024", "#b000ff", "#44ffff", "#ff80ff" ],
+      [ "#0a0018", "#8000ff", "#00ddff", "#e848ff" ],
+      [ "#0d001c", "#9400ff", "#22eeff", "#f060ff" ],
+      [ "#080014", "#7800ee", "#00ccff", "#e048f0" ]
+    ],
+    "backgroundShapes": [
+      "spectrum-gradient.svg",
+      "geometric-intersection.svg",
+      "large-triangles.svg",
+      "protruding-squares.svg",
+      "endless-constellation.svg",
+      "square-versatiles.svg",
+      "diagonal-stripes.svg"
+    ],
+    "heroAssets": [
+      "synth_keys.svg",
+      "audio_speaker.svg",
+      "qr_code.svg",
+      "update_arrow.svg",
+      "scan_code.svg",
+      "video_player.svg",
+      "bar_code.svg",
+      "drums_rhythm.svg",
+      "3d_glasses.svg",
+      "speaker_low.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 35, 85 ],
+      "noiseLevel": [ 0.08, 0.45 ],
+      "glitchIntensity": [ 0.25, 0.75 ]
+    }
+  },
+  "Soul": {
+    "palettes": [
+      [ "#1a0800", "#8b2500", "#d4681a", "#fde8c0" ],
+      [ "#150600", "#7a1e00", "#c05c14", "#fcdab8" ],
+      [ "#1e0a00", "#992a00", "#e0701e", "#feeac8" ],
+      [ "#120500", "#6a1a00", "#b05010", "#fcd8b0" ],
+      [ "#180700", "#882200", "#d06018", "#fde4bc" ],
+      [ "#200d00", "#aa3200", "#e87828", "#fff0d0" ],
+      [ "#140500", "#922800", "#cc6018", "#fce0c0" ],
+      [ "#1a0a00", "#9e2c00", "#d86820", "#feeccc" ],
+      [ "#220e00", "#b03800", "#ec802c", "#fff4d4" ],
+      [ "#160600", "#982a00", "#d4641c", "#fce4c4" ],
+      [ "#1c0a00", "#a42e00", "#dc6c24", "#feecc8" ],
+      [ "#180800", "#9a2800", "#d06018", "#fce0c0" ]
+    ],
+    "backgroundShapes": [
+      "diamond-sunset.svg",
+      "rose-petals.svg",
+      "wavey-fingerprint.svg",
+      "subtle-prism.svg",
+      "wintery-sunburst.svg",
+      "bullseye-gradient.svg",
+      "endless-constellation.svg"
+    ],
+    "heroAssets": [
+      "audio_speaker.svg",
+      "vinyl.svg",
+      "rose_flower.svg",
+      "crown.svg",
+      "heart_pulse.svg",
+      "speaker_low.svg",
+      "cassette.svg",
+      "theater_masks.svg",
+      "retro_icons.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 8, 38 ],
+      "noiseLevel": [ 0.08, 0.38 ],
+      "glitchIntensity": [ 0.0, 0.1 ]
+    }
+  },
+  "House": {
+    "palettes": [
+      [ "#0a0a1a", "#ff6600", "#ffcc00", "#1a1a3a" ],
+      [ "#080818", "#ee5500", "#ffbb00", "#181830" ],
+      [ "#0c0c1e", "#ff7700", "#ffd400", "#1c1c3c" ],
+      [ "#060614", "#ee4400", "#ffaa00", "#141428" ],
+      [ "#0e0e22", "#ff8800", "#ffdd00", "#1e1e40" ],
+      [ "#101028", "#ff9900", "#ffee00", "#202044" ],
+      [ "#070716", "#ff6600", "#ffcc00", "#161632" ],
+      [ "#0b0b1a", "#ff7700", "#ffd400", "#18183c" ],
+      [ "#12122a", "#ffaa00", "#ffff00", "#222248" ],
+      [ "#090918", "#ff6600", "#ffcc00", "#181838" ],
+      [ "#0d0d20", "#ff8800", "#ffdd00", "#1a1a3e" ],
+      [ "#080814", "#ff7700", "#ffcc00", "#161630" ]
+    ],
+    "backgroundShapes": [
+      "square-versatiles.svg",
+      "radiant-gradient.svg",
+      "protruding-squares.svg",
+      "geometric-intersection.svg",
+      "diamond-sunset.svg",
+      "liquid-cheese.svg",
+      "spectrum-gradient.svg",
+      "confetti-doodles.svg"
+    ],
+    "heroAssets": [
+      "disco_ball.svg",
+      "audio_speaker.svg",
+      "synth_keys.svg",
+      "drums_rhythm.svg",
+      "vinyl.svg",
+      "speaker_low.svg",
+      "update_arrow.svg",
+      "qr_code.svg",
+      "video_player.svg",
+      "retro_icons.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 25, 75 ],
+      "noiseLevel": [ 0.08, 0.35 ],
+      "glitchIntensity": [ 0.08, 0.45 ]
+    }
+  },
+  "Indie": {
+    "palettes": [
+      [ "#1a1a0a", "#6b8e23", "#c8b400", "#f5f5dc" ],
+      [ "#141408", "#5a7a1e", "#b8a800", "#f0f0d4" ],
+      [ "#1e1e0c", "#7a9e28", "#d4c000", "#f8f8e0" ],
+      [ "#121206", "#506e18", "#a89600", "#ece8cc" ],
+      [ "#181806", "#648820", "#c4ae00", "#f4f4d8" ],
+      [ "#20200e", "#7daa30", "#dcc400", "#fafae4" ],
+      [ "#16160a", "#649020", "#c0b000", "#f0ecd8" ],
+      [ "#1c1c0a", "#72a226", "#d0bc00", "#f6f4dc" ],
+      [ "#222210", "#80b034", "#e0c800", "#fcfce8" ],
+      [ "#18180a", "#6e9a24", "#ccb400", "#f4f0d8" ],
+      [ "#1e1e0e", "#78a628", "#d4c000", "#f8f4e0" ],
+      [ "#141406", "#5c8018", "#b4a400", "#ece8cc" ]
+    ],
+    "backgroundShapes": [
+      "hollowed-boxes.svg",
+      "repeating-chevrons.svg",
+      "wintery-sunburst.svg",
+      "wavey-fingerprint.svg",
+      "abstract-envelope.svg",
+      "rose-petals.svg",
+      "diamond-sunset.svg",
+      "subtle-prism.svg"
+    ],
+    "heroAssets": [
+      "electric_guitar_1.svg",
+      "cassette.svg",
+      "vinyl.svg",
+      "compass_outline.svg",
+      "retro_icons.svg",
+      "electric_guitar_2.svg",
+      "audio_speaker.svg",
+      "heart_pulse.svg",
+      "speaker_low.svg",
+      "update_arrow.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 3, 35 ],
+      "noiseLevel": [ 0.25, 0.7 ],
+      "glitchIntensity": [ 0.0, 0.25 ]
+    }
+  },
+  "Trap": {
+    "palettes": [
+      [ "#050505", "#8800ff", "#ff0044", "#ffffff" ],
+      [ "#030303", "#7700ee", "#ee0033", "#f0f0f0" ],
+      [ "#080808", "#9900ff", "#ff1155", "#eeeeee" ],
+      [ "#020202", "#6600dd", "#dd0022", "#e8e8e8" ],
+      [ "#060606", "#aa00ff", "#ff2266", "#f5f5f5" ],
+      [ "#0a0a0a", "#bb00ff", "#ff3377", "#ffffff" ],
+      [ "#010101", "#7700ff", "#ee0044", "#f0f0f0" ],
+      [ "#070707", "#8c00ff", "#ff0044", "#f8f8f8" ],
+      [ "#0c0c0c", "#cc00ff", "#ff4488", "#ffffff" ],
+      [ "#040404", "#8000ee", "#ee0055", "#f0f0f0" ],
+      [ "#090909", "#9900ff", "#ff2266", "#f5f5f5" ],
+      [ "#080808", "#9400ff", "#ff1166", "#f8f8f8" ]
+    ],
+    "backgroundShapes": [
+      "diagonal-stripes.svg",
+      "square-versatiles.svg",
+      "zig-zag.svg",
+      "large-triangles.svg",
+      "protruding-squares.svg",
+      "dragon-scales.svg",
+      "geometric-intersection.svg"
+    ],
+    "heroAssets": [
+      "crown.svg",
+      "bar_code.svg",
+      "audio_speaker.svg",
+      "qr_code.svg",
+      "shoes.svg",
+      "scan_code.svg",
+      "drums_rhythm.svg",
+      "bass_guitar.svg",
+      "speaker_low.svg",
+      "vinyl.svg"
+    ],
+    "effects": {
+      "glassIntensity": [ 15, 65 ],
+      "noiseLevel": [ 0.15, 0.55 ],
+      "glitchIntensity": [ 0.25, 0.85 ]
+    }
+  }
+}
