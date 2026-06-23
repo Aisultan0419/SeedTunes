@@ -16,35 +16,38 @@ namespace SeedTunes.Infrastructure
 
         public async Task<string> RenderCoverAsync(string jsonPrompt)
         {
-            if (string.IsNullOrWhiteSpace(jsonPrompt))
-                return string.Empty;
-
-            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            var promptData = JsonSerializer.Deserialize<CoverPromptData>(jsonPrompt, options);
-
-            if (promptData?.Style == null || promptData.BackgroundShape == null || promptData.HeroAsset == null)
-                return string.Empty;
-
-            using var bitmap = new SKBitmap(512, 512);
-            using var canvas = new SKCanvas(bitmap);
-
-            canvas.Clear(SKColor.Parse(promptData.Style.Palette.FirstOrDefault() ?? "#000000"));
-
-            long seed = promptData.TrackSeed ?? 0;
-            int rotationAngle = (int)(seed % 360);
-
-            DrawAsset(canvas, promptData.BackgroundShape, promptData.Style.Palette, isHero: false, rotationAngle);
-            DrawAsset(canvas, promptData.HeroAsset, promptData.Style.Palette, isHero: true, rotationAngle: 0);
-            ApplyNoiseEffect(canvas, (float)promptData.Style.Effects.NoiseLevel);
-
-            if (!string.IsNullOrWhiteSpace(promptData.Artist) || !string.IsNullOrWhiteSpace(promptData.Album))
+            return await Task.Run(() =>
             {
-                DrawTextBlock(canvas, promptData.Artist ?? "", promptData.Album ?? "", seed, promptData.Style.Palette);
-            }
+                if (string.IsNullOrWhiteSpace(jsonPrompt))
+                    return string.Empty;
 
-            using var image = SKImage.FromBitmap(bitmap);
-            using var data = image.Encode(SKEncodedImageFormat.Png, 100);
-            return $"data:image/png;base64,{Convert.ToBase64String(data.ToArray())}";
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var promptData = JsonSerializer.Deserialize<CoverPromptData>(jsonPrompt, options);
+
+                if (promptData?.Style == null || promptData.BackgroundShape == null || promptData.HeroAsset == null)
+                    return string.Empty;
+
+                using var bitmap = new SKBitmap(512, 512);
+                using var canvas = new SKCanvas(bitmap);
+
+                canvas.Clear(SKColor.Parse(promptData.Style.Palette.FirstOrDefault() ?? "#000000"));
+
+                long seed = promptData.TrackSeed ?? 0;
+                int rotationAngle = (int)(seed % 360);
+
+                DrawAsset(canvas, promptData.BackgroundShape, promptData.Style.Palette, isHero: false, rotationAngle);
+                DrawAsset(canvas, promptData.HeroAsset, promptData.Style.Palette, isHero: true, rotationAngle: 0);
+                ApplyNoiseEffect(canvas, (float)promptData.Style.Effects.NoiseLevel);
+
+                if (!string.IsNullOrWhiteSpace(promptData.Artist) || !string.IsNullOrWhiteSpace(promptData.Album))
+                {
+                    DrawTextBlock(canvas, promptData.Artist ?? "", promptData.Album ?? "", seed, promptData.Style.Palette);
+                }
+
+                using var image = SKImage.FromBitmap(bitmap);
+                using var data = image.Encode(SKEncodedImageFormat.Png, 100);
+                return $"data:image/png;base64,{Convert.ToBase64String(data.ToArray())}";
+            });
         }
 
         private void DrawTextBlock(SKCanvas canvas, string artist, string album, long seed, List<string> palette)

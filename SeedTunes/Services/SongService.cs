@@ -33,18 +33,21 @@ namespace SeedTunes.Services
             {
                 int recordIndex = startIdx + i;
                 ulong trackSeed = _trackSeedGenerator.GenerateTrackSeed(userSeed, recordIndex);
-
                 metadataBatch.Add(GenerateDeterministicMetadata(trackSeed, languageCode, recordIndex));
             }
 
             await _aiService.EnrichWithAiAsync(metadataBatch, languageCode);
 
-            foreach (var m in metadataBatch)
-            {
-                ulong trackSeed = _trackSeedGenerator.GenerateTrackSeed(userSeed,  m.RecordIndex);
-                int likes = CalculateLikes(averageLikes, trackSeed);
+            var coverTasks = metadataBatch.Select(m => _coverRendererService.RenderCoverAsync(m.CoverPrompt)).ToList();
 
-                string svgDataUri = await _coverRendererService.RenderCoverAsync(m.CoverPrompt);
+            string[] renderedCovers = await Task.WhenAll(coverTasks);
+
+            for (int i = 0; i < metadataBatch.Count; i++)
+            {
+                var m = metadataBatch[i];
+                ulong trackSeed = _trackSeedGenerator.GenerateTrackSeed(userSeed, m.RecordIndex);
+                int likes = CalculateLikes(averageLikes, trackSeed);
+                string svgDataUri = renderedCovers[i];
 
                 response.Songs.Add(new SongDto
                 {
@@ -53,7 +56,7 @@ namespace SeedTunes.Services
                     Artist = m.Artist,
                     Album = m.Album,
                     Genre = m.Genre,
-                    CoverUrl = svgDataUri, 
+                    CoverUrl = svgDataUri,
                     AudioUrl = $"/api/songs/audio?userSeed={userSeed}&pageNumber={pageNumber}&songIndex={m.RecordIndex}",
                     LikeCount = likes,
                     Description = m.Description
