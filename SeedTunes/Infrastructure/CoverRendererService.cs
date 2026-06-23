@@ -37,7 +37,6 @@ namespace SeedTunes.Infrastructure
 
                 DrawAsset(canvas, promptData.BackgroundShape, promptData.Style.Palette, isHero: false, rotationAngle);
                 DrawAsset(canvas, promptData.HeroAsset, promptData.Style.Palette, isHero: true, rotationAngle: 0);
-                ApplyNoiseEffect(canvas, (float)promptData.Style.Effects.NoiseLevel);
 
                 if (!string.IsNullOrWhiteSpace(promptData.Artist) || !string.IsNullOrWhiteSpace(promptData.Album))
                 {
