@@ -153,15 +153,5 @@ namespace SeedTunes.Infrastructure
             canvas.DrawPicture(svg.Picture, paint);
             canvas.Restore();
         }
-
-        private static void ApplyNoiseEffect(SKCanvas canvas, float noiseLevel)
-        {
-            if (noiseLevel <= 0) return;
-            using var shader = SKShader.CreatePerlinNoiseFractalNoise(0.1f, 0.1f, 2, 0);
-            using var paint = new SKPaint { Shader = shader, BlendMode = SKBlendMode.Overlay, Color = SKColors.White.WithAlpha(80) };
-            canvas.Save();
-            canvas.DrawRect(new SKRect(0, 0, 512, 512), paint);
-            canvas.Restore();
-        }
     }
 }
